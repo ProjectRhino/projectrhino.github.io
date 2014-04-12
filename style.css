@@ -1,0 +1,402 @@
+body { 
+		background: #232323 url(images/bg.png) repeat;
+		margin: 0;
+		padding: 0;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		
+		/* Make HTML 5 elements display block-level for consistent styling */  
+		header, nav, article, section, aside, footer, address {  
+    	display: block;  
+		} 
+		.wrapper {
+		width: 960px;
+		min-height: 720px;
+		margin: 0 auto;
+		text-align: center;
+		background: url(images/bg-light.png) no-repeat;
+		padding-top: 20px;
+		}
+		
+		.theteam {
+		width: 960px;
+		margin: 0 auto;
+		padding-top: 20px;
+		}
+		
+
+		
+		
+		
+		a{ color: #77dff1; text-decoration: none;}
+		
+		@font-face {
+    	font-family: 'LeagueGothicRegular';
+   		src: url('fonts/League_Gothic-webfont.eot');
+    	src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/League_Gothic-webfont.woff') format('woff'),
+        url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+        url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+    	}
+		
+		h1 {
+		text-transform: uppercase;
+		color: #77dff1;
+		font-family: LeagueGothicRegular;
+		font-size: 80px;
+		font-weight: lighter;
+		text-shadow: 0px 2px 0px #000;
+		margin: 30px 0 0 0;
+		}
+		
+		h5 {
+		text-transform: uppercase;
+		color: #ffffff;
+		font-family: LeagueGothicRegular;
+		font-size: 100px;
+		font-weight: lighter;
+		text-shadow: 0px 2px 0px #000;
+		margin: 30px 0 0 0;
+		}
+		
+		h2 {
+		text-transform: uppercase;
+		color: #77dff1;
+		font-family: LeagueGothicRegular;
+		font-size: 24px;
+		font-weight: lighter;
+		text-shadow: 0px 2px 0px #000;
+		margin: 15px 0 15px 20px;
+		text-align: left;
+		}
+		
+		p {
+		color: #fff;
+		margin: 0;
+		font-size: 16px;
+		text-shadow: 0 -2px 0 #000;
+		}
+		
+		p.credit {font-size: 12px; margin-top: 40px; color: #ccc;}
+		
+		.hr {
+		display: block;
+		border: none;
+		width: 960px;
+		height: 2px;
+		background: url(images/divider.png);
+		margin: 10px 0;
+		}
+		
+		.clear {
+		clear: both;
+		}
+		
+		.progress {
+		height: 110px;
+		margin: 80px 0;
+		background: url(images/progress-container.png) no-repeat;
+		position: relative;
+		}
+		
+		.txt-launch-day-hat {
+		background: url(images/txt-launch-day-hat.png) no-repeat;
+		width: 117px;
+		height: 159px;
+		position: absolute;
+		top: -120px;
+		right: -45px;
+		}
+		
+		.txt-launch-day {
+		background: url(images/txt-launch-day.png) no-repeat;
+		width: 112px;
+		height: 110px;
+		position: absolute;
+		top: -80px;
+		right: -40px;
+		}
+		
+		.progress-bar {
+		height: 43px;
+		background: #72dbf1 url(images/progress-bar.png) repeat-x;
+		position: absolute;
+		top:14px;
+		left: 0px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		}
+		
+		.progress-bar-container {
+		width: 930px;
+		height: 70px;
+		margin-left: 13px;
+		position: relative;
+		}
+		
+		.mailing-list h2 {
+		width: 400px;
+		float: left;
+		}
+		
+		.mailing-list form {
+		display: block;
+		width: 450px;
+		float: right;
+		margin: 5px 0 0 0;
+		}
+		
+		.mailing-list input[type=text]{
+		width:280px;
+		height: 16px;
+		background: url(images/form-bg.png) no-repeat;
+		border: none;
+		color: #c9c9c9;
+		font-size: 14px;
+		padding: 15px 10px;
+		margin: 0;
+		}
+		
+		.mailing-list input[type=submit]{
+		width:90px;
+		height: 44px;
+		background: url(images/btn-subscribe.png) no-repeat;
+		border: none;
+		text-indent: -5000px;
+		cursor: pointer;
+		margin: 0 0 0 -10px;
+		text-transform: capitalize;1
+		}
+		
+		.mailing-list input[type=submit]:hover{
+		background-position: 0 -44px;
+		}
+		
+		.mailing-list input[type=submit]:active{
+		background-position: 0 -88px;
+		}
+		
+		.mailing-list input[type=text]:focus {
+		outline: none;
+		}
+		
+		.tipsy { margin-bottom: 25px; font-size: 18px; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url(images/tipsy.png); font-family: 'LeagueGothicRegular'; text-transform: uppercase;  }
+  		.tipsy-inner { padding: 10px 20px; background-color: black; color: white; max-width: 400px; text-align: right; -webkit-box-shadow: 0 20px 15px rgba(0,0,0,0.5); -moz-box-shadow: 0 20px 15px rgba(0,0,0,0.5);   }
+  		.tipsy-inner { -moz-border-radius:5px; -webkit-border-radius:5px; }
+  		.tipsy-north { background-position: top center; }
+  		.tipsy-south { background-position: bottom center; }
+  		.tipsy-east { background-position: right center; }
+  		.tipsy-west { background-position: left center; }
+  		.tipsy-container { border: 1px solid green;}
+		
+.relative {     position:relative;
+    text-align:center;}
+.mt120 { margin-top:80px; margin-left:40px; }
+
+h6 {
+    font-size:15px;
+    font-weight:400;
+    line-height:100%;
+    font-style:italic;
+	
+}
+    h6.behind {
+        font-weight:700;
+        font-size:80px;
+        line-height:100%;
+        font-style:normal;
+        position:absolute;
+        top:-30px;
+        left:0;
+        z-index:0;
+        opacity:0.09;
+        -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=9);
+    }
+
+.text-black { color:white; }
+.row { margin-left:-20px; }
+
+.row:before,.row:after {
+    content:"";
+    display:table;
+    line-height:0;
+}
+    .row:after { clear:both; }
+
+[class*=span] {
+    float:left;
+    margin-left:20px;
+    min-height:1px;
+}
+
+.team-element {
+    position:relative;
+    text-align:center;
+    margin-left:20px;
+    z-index:1;
+    display:inline-block;
+}
+    .team-element img {
+        border-radius:92px;
+        position:relative;
+        display:block;
+        z-index:5;
+        width: 183px;        
+    }
+    .team-element:before {
+        width:190px;
+        height:190px;
+        background:#fff;
+        position:absolute;
+        top:-3px;
+        left:-3px;
+        content:'';
+        border-radius:95px;
+        z-index:3;
+        opacity:0;
+        -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    }
+    .team-element:after {
+        width:184px;
+        height:179px;
+        position:absolute;
+        bottom:0;
+        left:0;
+        content:'';
+        z-index:2;
+        opacity:0;
+        -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    }
+
+.team-element h5 {
+    margin:30px 0 6px;
+    line-height:100%;
+    font-size:26px;
+    color:white;
+}
+
+.team-element:hover ul,.team-element:hover:after,.team-element:hover:before {
+    opacity:1;
+    -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+.team-element ul {
+    position:absolute;
+    top:175px;
+    left:0;
+    z-index:6;
+    opacity:0;
+    -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+    .team-element ul li { position:absolute; }
+    .team-element ul li:first-child {
+        top:-25px;
+        left:16px;
+    }
+    .team-element ul li:nth-child(2) {
+        top:-2px;
+        left:78px;
+    }
+    .team-element ul li:nth-child(3) {
+        top:-8px;
+        left:45px;
+    }
+    .team-element ul li:nth-child(4) {
+        top:-8px;
+        left:111px;
+    }
+    .team-element ul li:nth-child(5) {
+        top:-25px;
+        left:140px;
+    }
+
+.team-element ul li {
+    display:block;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    text-decoration:none;
+    background:#fff;
+}
+    .team-element ul li a {
+        margin-top:4px;
+        opacity:0.5;
+        text-indent:-9999px;
+    }
+    .team-element ul li.email a { margin-top:9px; }
+    .team-element ul li:hover a { background:url(http://jenniferperrin.com/jsfiddle/social.png); opacity:1; }
+
+.social-icons li a {
+    background:url(http://jenniferperrin.com/jsfiddle/social-black.png) no-repeat center center;
+    width:20px;
+    height:20px;
+    display:inline-block;
+}
+    .social .social-icons li {
+        padding:0;
+        width:40px;
+        height:40px;
+        text-align:center;
+        display:inline-block;
+        border-radius:20px;
+        margin:0 2px;
+        background:#000;
+    }
+    .social .social-icons li:hover { border-radius:3px; }
+    .social .social-icons li a {
+        text-indent:-9999px;
+        background:url(http://jenniferperrin.com/jsfiddle/social.png) no-repeat;
+        margin-top:9px;
+    }
+    .social .social-icons li a:hover { text-decoration:none; }
+
+/* Social Networks */
+li.facebook a { background-position:-320px 0!important; }
+li.twitter a { background-position:-240px 0!important; }
+li.behance a { background-position:-760px -40px!important; }
+li.dribbble a { background-position:-760px 0!important; }
+li.linkedin a { background-position:-680px 0!important; }
+li.github a { background-position:0 0!important; }
+li.flickr a { background-position:-80px 0!important; }
+li.vimeo a { background-position:-160px 0!important; }
+li.gplus a { background-position:-440px 0!important; }
+li.pinterest a { background-position:-520px 0!important; }
+li.tumblr a { background-position:-600px 0!important; }
+li.stumbleupon a { background-position:-840px 0!important; }
+li.lastfm a { background-position:0 -40px!important; }
+li.instagram a { background-position:-280px -40px!important; }
+li.skype a { background-position:-440px -40px!important; }
+li.soundcloud a { background-position:-680px -40px!important; }
+li.email a { background-position:0 -70px!important; }
+.social li.facebook,.team-element ul li.facebook:hover { background-color:#39599f; }
+.social li.twitter,.team-element ul li.twitter:hover { background-color:#00aced; }
+.social li.behance,.team-element ul li.behance:hover { background-color:#2d9ad2; }
+.social li.dribbble,.team-element ul li.dribbble:hover { background-color:#f874a4; }
+.social li.linkedin,.team-element ul li.linkedin:hover { background-color:#0173b2; }
+.social li.github,.team-element ul li.github:hover { background-color:#000; }
+.social li.flickr,.team-element ul li.flickr:hover { background-color:#ff0084; }
+.social li.vimeo,.team-element ul li.vimeo:hover { background-color:#aad450; }
+.social li.gplus,.team-element ul li.gplus:hover { background-color:#d64a2d; }
+.social li.pinterest,.team-element ul li.pinterest:hover { background-color:#910101; }
+.social li.tumblr,.team-element ul li.tumblr:hover { background-color:#34526f; }
+.social li.stumbleupon,.team-element ul li.stumbleupon:hover { background-color:#e8481f; }
+.social li.lastfm,.team-element ul li.lastfm:hover { background-color:#c60e0d; }
+.social li.instagram,.team-element ul li.instagram:hover { background-color:#447298; }
+.social li.skype,.team-element ul li.skype:hover { background-color:#13b1f1; }
+.social li.soundcloud,.team-element ul li.soundcloud:hover { background-color:#F60; }
+.team-element ul li.email:hover { background-color:#000; }
+
+.span3 { width:200px; }
+
+ul,ol {
+    padding:0;
+    margin:0 0 10px 25px;
+}
+
+li { line-height:20px; }
+    ul.unstyled,ol.unstyled {
+        margin-left:0;
+        list-style:none;
+    }
